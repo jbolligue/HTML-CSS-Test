@@ -1,3 +1,9 @@
+
+*, :after, :before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 body {
     font-family: Roboto, sans-serif;
     color: #141414;
@@ -15,11 +21,6 @@ h2 {
 }
 li, ul {
     list-style: none;
-}
-*, :after, :before {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
 }
 .header{
     position:static;
@@ -95,6 +96,9 @@ a.telephone_number {
 }
 .logo, .logo a {
     position: relative;
+}
+.header-burger{
+    display: none;
 }
 .navigation-list {
     display: flex;
